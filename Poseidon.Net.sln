@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poseidon.Net", "Poseidon.Net\Poseidon.Net.csproj", "{A68C1E20-0B12-4AF2-A6F8-BAAEF1922163}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poseidon.Net.Test", "Poseidon.Net.Test\Poseidon.Net.Test.csproj", "{590A698E-0AA9-4E32-882F-6BEBB65DE104}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A68C1E20-0B12-4AF2-A6F8-BAAEF1922163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68C1E20-0B12-4AF2-A6F8-BAAEF1922163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68C1E20-0B12-4AF2-A6F8-BAAEF1922163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68C1E20-0B12-4AF2-A6F8-BAAEF1922163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{590A698E-0AA9-4E32-882F-6BEBB65DE104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{590A698E-0AA9-4E32-882F-6BEBB65DE104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{590A698E-0AA9-4E32-882F-6BEBB65DE104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{590A698E-0AA9-4E32-882F-6BEBB65DE104}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

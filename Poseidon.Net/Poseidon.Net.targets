@@ -1,0 +1,21 @@
+<Project>
+
+    <PropertyGroup>
+        <PoseidonNativeLibDirectory>$(MSBuildThisFileDirectory)/../content/native</PoseidonNativeLibDirectory>
+    </PropertyGroup>
+
+    <Target Name="PoseidonCopyNativeLibs" AfterTargets="Build">
+        <ItemGroup>
+            <PoseidonNativeLibs Include="$(PoseidonNativeLibDirectory)/**/*.*" />
+        </ItemGroup>
+        <Copy SourceFiles="@(PoseidonNativeLibs)" DestinationFolder="$(OutputPath)/native/%(RecursiveDir)" />
+    </Target>
+
+    <Target Name="PoseidonCopyNativeLibsToPublish" AfterTargets="Publish">
+        <ItemGroup>
+            <PoseidonNativeLibs Include="$(PoseidonNativeLibDirectory)/**/*.*" />
+        </ItemGroup>
+        <Copy SourceFiles="@(PoseidonNativeLibs)" DestinationFolder="$(PublishDir)/native/%(RecursiveDir)" />
+    </Target>
+
+</Project>
